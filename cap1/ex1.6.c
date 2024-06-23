@@ -6,7 +6,10 @@ int main(void) {
     int a;
     int b;
 
+    printf("Primeiro numero: ");
     scanf("%d",&a);
+    
+    printf("Segundo numero: ");
     scanf("%d",&b);
 
     int soma = a + b;
