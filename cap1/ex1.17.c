@@ -9,17 +9,17 @@ int main(void) {
     float h;
 
     printf("Valor da base maior: ");
-    scanf("%d",&B);
+    scanf("%f",&B);
 
     printf("Valor da base menor: ");
-    scanf("%d",&b);
+    scanf("%f",&b);
 
     printf("Valor da altura: ");
-    scanf("%d",&h);
+    scanf("%f",&h);
 
     A = ((B+b)*h)/2;
 
-    printf("Area = %d",A);
+    printf("Area = %.2f",A);
 
     return 0;
 }
