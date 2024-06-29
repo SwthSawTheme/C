@@ -21,7 +21,16 @@ int main( void ) {
      *     - entrada de dados;
      *     - processamentos adicionais.
      ----------------------------------------------------*/
-    
+
+    int x;
+    int y;
+
+    printf("X = ");
+    scanf("%d",&x);
+
+    printf("Y = ");
+    scanf("%d",&y);
+        
     
     // ativa a suavização (antialiasing)
     SetConfigFlags( FLAG_MSAA_4X_HINT );
@@ -44,8 +53,8 @@ int main( void ) {
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve vir aqui.
          ---------------------------------------------------------------------*/
-
-
+        
+        DrawPixel(x,y,RED);
 
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve terminar na linha acima.
