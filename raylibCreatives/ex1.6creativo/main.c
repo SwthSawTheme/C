@@ -22,6 +22,18 @@ int main( void ) {
      *     - processamentos adicionais.
      ----------------------------------------------------*/
     
+    int centerX;
+    int centerY;
+    float radius;
+
+    printf("x centro: ");
+    scanf("%d", &centerX);
+
+    printf("y centro: ");
+    scanf("%d", &centerY);
+
+    printf("Raio: ");
+    scanf("%f",&radius);
     
     // ativa a suavização (antialiasing)
     SetConfigFlags( FLAG_MSAA_4X_HINT );
@@ -45,7 +57,7 @@ int main( void ) {
          * A lógica do seu desenho deve vir aqui.
          ---------------------------------------------------------------------*/
 
-
+        DrawCircleLines(centerX,centerY,radius,RED);
 
         /*----------------------------------------------------------------------
          * A lógica do seu desenho deve terminar na linha acima.
