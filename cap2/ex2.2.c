@@ -11,16 +11,16 @@ int main( void ){
     int primeiroNumero;
     int segundoNumero;
 
-    printf("Entre com um numero: ");
+    printf("\nEntre com um numero: ");
     scanf("%d",&primeiroNumero);
 
-    printf("Entre com outro numero: ");
+    printf("\nEntre com outro numero: ");
     scanf("%d",&segundoNumero);
 
     if ( primeiroNumero <= segundoNumero){
-        printf("Ordem crescente: %d <= %d",primeiroNumero,segundoNumero);
+        printf("\nOrdem crescente: %d <= %d",primeiroNumero,segundoNumero);
     } else if (segundoNumero <= primeiroNumero) {
-        printf("Ordem crescente: %d <= %d",segundoNumero, primeiroNumero);
+        printf("\nOrdem crescente: %d <= %d",segundoNumero, primeiroNumero);
     }
     
     return 0;
