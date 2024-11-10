@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Exercício 2.1:
+// Escreva um programa que peça para o usuário fornecer um número inteiro. O programa deve exibir
+// se o número fornecido é par ou ímpar.
+
 int main( void ){
     
     int numero;
