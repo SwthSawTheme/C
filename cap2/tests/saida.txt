@@ -1,3 +1,1 @@
-Entre com um numero: 
-Entre com outro numero: 
-Ordem decrescente: 88 >= 22
+N1: N2: N3: 44 <= 88 <= 99
