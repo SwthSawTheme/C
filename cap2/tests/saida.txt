@@ -1,1 +1,1 @@
-Entre com um numero: Entre com outro numero: Ordem crescente: 23 <= 38
+Entre com um numero: Entre com outro numero: Ordem decrescente: 88 >= 22
